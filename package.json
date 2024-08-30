@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "app.js",
   "type": "module",
+  "homepage": "https://lewypopescu.github.io/nodejs-express-rest-api",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "start:dev": "nodemon app.js"
+    "start:dev": "nodemon app.js",
+    "build": "echo \"No build step specified\"",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +23,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "nodemon": "^3.1.4"
   }
 }
